@@ -6,9 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Matematika</title>
     <style>
-* {margin: 0;padding: 0;box-sizing: border-box;}body, html {overflow-x: hidden;}.date {padding-top: 23px;padding-bottom: 20px;}.date__container {max-width: 390px;margin-left: auto;margin-right: auto;text-align: center;display: flex;flex-direction: column;align-items: center;justify-content: center;padding-left: 10px;padding-right: 10px;}.date__top {text-decoration: none; border-radius: 50px;box-shadow: 0px 3px 0px 0px #0072CA;background-color: #0693FF;width: 100%;max-width: 178px;padding: 5px;margin-bottom: 38px;}.date__top>span {font-size: 13px;font-weight: 500;font-family: sans-serif;line-height: 20px;color: white;}.date__title {font-family: Kuunari, sans-serif;font-weight: 900;font-size: clamp(29px, 9vw, 32px);line-height: 120%;text-transform: uppercase;margin-bottom: 24px;}.date__title>span {color: #0693FF;}.date__info {border: 2px solid #2EA4FF;background-color: white;border-radius: 10px;padding: 9px 15px 10px 16px;margin-bottom: 61px;width: 100%;margin-left: auto;margin-right: auto;display: flex;align-items: center;max-width: 333px;width: 100%;justify-content: center;}.date__info>p {font-weight: 400;font-size: 14px;line-height: 20px;}.date__info>p>span {font-weight: 700;}.date__subtitle {font-weight: 400;font-size: 21px;line-height: 120%;text-align: center;margin-left: auto;margin-right: auto;margin-bottom: 14px;}.date__subtitle>span {color: #FF0000;}.date__registerBtn {margin-top: 15px;font-family: Kuunari, sans-serif;color: white;padding: 19px 26px 18px 27px;font-weight: 700;text-decoration: none;border: none;background-color: #0693FF;box-shadow: 0px 3px 0px 0px #0072CA;font-size: clamp(26px, 7vw, 28px);border-radius: 10px;margin-bottom: 12px;cursor: pointer;line-height: 28px;text-transform: uppercase;}.date__user-box {display: flex;align-items: center;gap: 11px;margin-bottom: 48px;}.date__user-text {font-weight: 700;font-size: 18px;line-height: 15px;}.date__text {font-weight: 400;margin-bottom: 22px;font-size: 26px;line-height: 25px;}.date__timer-box {display: flex;align-items: center;justify-content: center;margin-bottom: 19px;}.date__user-img {max-width: 122px;width: 100%;}.timer {display: flex;gap: var(--gap-between-blocks);align-items: flex-start;}.block {width: 80px;text-align: center;}.value {font-weight: 700;font-size: 35px;line-height: 25px;margin-bottom: 5px;}.label {font-weight: 400;font-size: 24px;line-height: 25px;text-align: center;}@media (max-width:340px) {.date__info>p {font-size: 12.5px;line-height: 17px;}.date__info {padding: 5px;margin-bottom: 20px;}.date__subtitle {font-size: 20px;}.date__registerBtn {font-size: 25px;padding: 17px 20px 16px 21px;}.date__user-text {font-size: 15.5px;}.date__user-box {margin-bottom: 25px;}.date__user-img {max-width: 100px;}.date__text {font-size: 23px;}.value {font-size: 32px;margin-bottom: 2px;}.label {font-size: 21px;}}
+* {margin: 0;padding: 0;box-sizing: border-box;}html, body {overflow-x: hidden;}body {background-color: #FFFCF5;}.container {max-width: 440px;width: 100%;margin: 0 auto;padding: 0 10px;padding-top: 0;display: flex;flex-direction: column;align-items: center;font-family: sans-serif;}.header {width: 100%;background-color: #fff;box-shadow: 0px 4px 6.6px 0px #00000026;border-radius: 4px 4px 20px 20px;padding: 20px 30px;display: flex;align-items: center;justify-content: space-between;gap: 12px;margin-bottom: 22px;min-width: 313px;max-width: 400px;}.header__box {display: flex;align-items: center;gap: 8px;}.header__text {font-family: Montserrat, sans-serif;color: #000;font-weight: 500;font-size: 17px;line-height: 100%;text-wrap: nowrap;}.header__time {font-family: Montserrat, sans-serif;font-weight: 800;font-size: 18px;line-height: 100%;text-align: center;}.title {font-family: "Hanuman", sans-serif;font-weight: 900;font-size: clamp(28px, 9vw, 36px);line-height: 125%;text-align: center;text-transform: uppercase;color: #000000;margin-bottom: 1px;max-width: 406px;width: 100%;}.title span {color: #DD0000;}.text {font-family: Montserrat, sans-serif;font-weight: 400;font-size: 14px;line-height: 100%;text-align: center;margin-bottom: 19px;}.text span {color: #FF0000;}.center {position: relative;width: 100%;display: flex;align-items: center;justify-content: center;}.center__bg {position: absolute;left: 50%;bottom: -51px;transform: translate(-55.4%);z-index: -1;}.expert__img {object-fit: contain;max-width: 247px;width: 100%;height: auto;position: relative;z-index: 15;margin-bottom: -1px;}.event__btn {text-decoration: none;cursor: pointer;max-width: 345px;width: 100%;display: flex;align-items: center;justify-content: center;border: none;background-color: transparent;position: relative;background: linear-gradient(90deg, #DD0000 12.02%, #E52628 50.48%, #DD0000 88.94%);border-radius: 100px;box-shadow: 0px 6px 0px 0px #990001;padding: 20px 0 15px;z-index: 20;font-family: Hanuman, sans-serif;color: white;font-weight: 700;font-size: 20px;height: 71px;line-height: 100%;text-align: center;text-transform: uppercase;}.event__btn__img {width: 100%;height: auto;}.event__list__title {font-family: Hanuman, sans-serif;font-weight: 400;font-size: 24px;line-height: 100%;text-align: center;margin-top: 17px;margin-bottom: 10px;}.timer__box {font-family: Montserrat, sans-serif;font-weight: 700;font-size: 28px;line-height: 100%;text-align: center;padding-top: 25px;}.event__list {max-width: 351px;display: grid;grid-template: 1fr;gap: 15px;list-style: none;margin-bottom: 21px;}.event__list__item {display: flex;align-items: center;gap: 8px;overflow: hidden;}.event__list__item__number {display: flex;align-items: center;justify-content: center;flex-shrink: 0;}.event__list__item__text {font-weight: 400;font-family: Poppins, sans-serif;font-size: clamp(12px, 4vw, 14px);line-height: 125%;color: #2C0815;}.event__list__item__text span {font-weight: 600;}.gift-wrapper {border-radius: 20px;border: 1px solid #CC0002;box-shadow: 0px 0px 10px 0px #99000166;box-shadow: 0px 0px 7px 0px #99000180 inset;max-width: 306px;width: 100%;margin-top: 24px;padding: 6px 17px 5px 10px;}.gift {display: flex;align-items: center;gap: 12px;width: 100%;border-radius: 16px;padding: 3px 3px 2px 5px;}.gift__img {object-fit: contain;max-width: 72px;width: 100%;height: auto;}.gift__title {font-family: "Big Shoulders Display", sans-serif;font-weight: 900;font-size: 30px;line-height: 100%;margin-bottom: 4px;text-transform: uppercase;white-space: nowrap;}.gift__description {font-family: Poppins, sans-serif;font-weight: 400;font-size: 14px;line-height: 130%;}@media (max-width:355px) {.event__btn {font-size: 19px;}.header {padding: 20px 22px;}.event__arrows {right: 120px;top: -12px;}.event__arrow {left: 120px;top: -16px;}}
     </style>
-
     <link rel="stylesheet" href="./css/modal.css" media="print" onload="this.media='all'" />
     <noscript>
         <link rel="stylesheet" href="./css/modal.css" />
@@ -16,82 +15,73 @@
 </head>
 
 <body>
-
-    <section class="date">
-        <div class="date__container">
-            <a class="date__top" href="https://t.me/+h323CnLdxrpkMTdi">
-                <span>BEPUL qatnashish</span>
-            </a>
-
-            <h2 class="date__title">Matematika Milliy <br> sertifikat <span>imtihon sirlari</span></h2>
-
-            <div class="date__info">
-                <p>
-                    Milliy sertifikat imtihonida tushadigan eng qiyin bo’lgan 10 ta ochiq savollarni oson ishlash
-                    usullari
-                </p>
+    <div class="wrapper">
+        <div class="container">
+            <div class="header">
+                <div class="header__box">
+                    <img src="./images/calendar.png" alt="kalendar belgisi" style="margin-top: -3px;"
+                        class="header__text__img" width="18" height="18" loading="lazy" decoding="async">
+                    <p class="header__text">
+                        19-Dekabr
+                    </p>
+                </div>
+                <p class="header__time">20:00</p>
             </div>
 
-            <h3 class="date__subtitle"><span>DIQQAT!!!</span> Pastdagi ko’k tugmani <br> bosib Telegram kanalimga
-                qo’shiling</h3>
+            <h1 class="title">
+                Matematika <br> 
+                Milliy sertifikat <br> <span>imtihon sirlari</span>
+            </h1>
 
-            <img src="./images/arrows.avif" loading="lazy" alt="arrows">
+            <img src="./images/speaker.avif" alt="Invertor rasmi" class="expert__img" decoding="async" loading="lazy"
+                width="247" height="268">
 
-            <a href="https://t.me/+h323CnLdxrpkMTdi" class="date__registerBtn">>> Kanalga qo’shilish << </a>
+                <a class="event__btn registerBtn" href="https://t.me/+h323CnLdxrpkMTdi">
+                    darslarni bepul ko’rish
+                </a>
+            <div class="timer__box" id="timer">02:00</div>
 
-                    <div class="date__user-box">
-                        <img class="date__user-img" src="./images/starts.svg" loading="lazy" decoding="async"
-                            alt="start icons">
-                        <p class="date__user-text">1000+ ishtirokchilar</p>
+            <h2 class="event__list__title">BEPUL darsda:</h2>
+            <ul class="event__list">
+                <li class="event__list__item">
+                    <div class="event__list__item__number">
+                        <img src="./images/verify.avif" alt="event language" width="35" height="35" decoding="async"
+                            loading="lazy">
                     </div>
-
-                    <h4 class="date__text">Bepul qatnashishga ulguring!</h4>
-
-                    <div class="date__timer-box">
-                        <div class="timer" role="timer" aria-live="polite" aria-atomic="true">
-                            <div class="block">
-                                <div class="value" id="days">00</div>
-                                <div class="label">Kun</div>
-                            </div>
-
-                            <div class="block">
-                                <div class="value" id="hours">00</div>
-                                <div class="label">Soat</div>
-                            </div>
-
-                            <div class="block">
-                                <div class="value" id="minutes">01</div>
-                                <div class="label">Daqiqa</div>
-                            </div>
-
-                            <div class="block">
-                                <div class="value" id="seconds">59</div>
-                                <div class="label">Soniya</div>
-                            </div>
-                        </div>
+                    <p class="event__list__item__text">
+                        Milliy sertifikat imtihonida tushadigan <br> <span>eng qiyin bo’lgan 10 ta</span> ochiq <br> savollarni oson ishlash usullari
+                    </p>
+                </li>
+                <li class="event__list__item">
+                    <div class="event__list__item__number">
+                        <img src="./images/verify.avif" alt="event language" width="35" height="35" decoding="async"
+                            loading="lazy">
                     </div>
+                    <p class="event__list__item__text">
+                        Ko’p vaqt ketadigan savollarga <span>kam <br> vaqt sarflab</span> yechim topish sirlarini
+                    </p>
+                </li>
+                <li class="event__list__item">
+                    <div class="event__list__item__number">
+                        <img src="./images/verify.avif" alt="event language" width="35" height="35" decoding="async"
+                            loading="lazy">
+                    </div>
+                    <p class="event__list__item__text">
+                        Qaysi mavzulardan <span>tayyorlanish <br> kerakligini</span> bilib olasiz
+                    </p>
+                </li>
+            </ul>
+            <a class="event__btn registerBtn" style="margin-bottom: 34px;" href="https://t.me/+h323CnLdxrpkMTdi">
+                darslarni bepul ko’rish
+            </a>
         </div>
-    </section>
 
-    
-    <script defer src="./js/app.js"></script>
-    <!-- Meta Pixel Code -->
-<script>
-    !function(f,b,e,v,n,t,s)
-    {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-    n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-    if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
-    n.queue=[];t=b.createElement(e);t.async=!0;
-    t.src=v;s=b.getElementsByTagName(e)[0];
-    s.parentNode.insertBefore(t,s)}(window, document,'script',
-    'https://connect.facebook.net/en_US/fbevents.js');
-    fbq('init', '1452207389667804');
-    fbq('track', 'PageView');
-    </script>
-    <noscript><img height="1" width="1" style="display:none"
-    src="https://www.facebook.com/tr?id=1452207389667804&ev=PageView&noscript=1"
-    /></noscript>
-    <!-- End Meta Pixel Code -->
+    </div>
+
+    <script defer>
+        document.addEventListener("DOMContentLoaded", (() => { const t = document.getElementById("timer"); let e = 120; const n = setInterval((() => { const a = Math.floor(e / 60), o = e % 60; t.textContent = `${String(a).padStart(2, "0")}:${String(o).padStart(2, "0")}`, e <= 0 && clearInterval(n), e-- }), 1e3) }));
+      </script>
+    <script defer src="../js/app.js"></script>
 </body>
 
 </html>
